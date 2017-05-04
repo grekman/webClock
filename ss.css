@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#clock-table {
+  margin: 0 auto;
+  width: 830px;
+  height: 830px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+
+#minut {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  /*border: 2px solid red;*/
+  display: block;
+}
+
+#second {
+  z-index: 10;
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  /*border: 1px dashed green;*/
+  display: block;
+}
+
+
+
+#three {
+  font-size: 80px;
+  position: absolute;
+  top: 360px;
+  right: 30px;
+}
+#six {
+  font-size: 80px;
+  position: absolute;
+  bottom: 30px;
+  left: 395px;
+}
+
+#nine {
+  font-size: 80px;
+  position: absolute;
+  top: 360px;
+  left: 30px;
+}
+#twelve {
+  font-size: 80px;
+  position: absolute;
+  top: 30px;
+  left: 375px;
+}
